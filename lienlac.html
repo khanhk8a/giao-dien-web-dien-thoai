@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Lien Lac</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lienlac.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <!--Tieu de-->
+    <div class="top-nav group">
+        <div class="container">
+            <section>
+                <div class="social-top-nav">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+                <!-- End Social Topnav -->
+
+                <ul class="top-nav-quicklink flexContain">
+                    <li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+                    <li><a href="tintuc.html"><i class="fa fa-newspaper-o"></i> Tin tức</a></li>
+                    <li><a href="tuyendung.html"><i class="fa fa-handshake-o"></i> Tuyển dụng</a></li>
+                    <li><a href="gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
+                    <li><a href="trungtambaohanh.html"><i class="fa fa-wrench"></i> Bảo hành</a></li>
+                    <li><a href="lienlac.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
+                </ul>
+                <!-- End Quick link -->
+            </section>
+            <!-- End Section -->
+        </div>
+    </div>
+    <section>
+        <div class="header group">
+            <div class="container header1">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="image/logo.png" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                    </a>
+                </div>
+                <!-- End Logo -->
+
+                <div class="content">
+                    <div class="search-header">
+                        <form class="input-search" method="get" action="index.html">
+                            <div class="autocomplete">
+                                <input id="search-box" name="search" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm...">
+                                <button type="submit">
+                                <i class="fa fa-search"></i>
+                                Tìm kiếm
+                            </button>
+                            </div>
+                        </form>
+                        <!-- End Form search -->
+                        <div class="tags">
+                            <strong>Từ khóa: </strong>
+                            <a href="index.html?search=Samsung">Samsung</a>
+                            <a href="index.html?search=iPhone">iPhone</a>
+                            <a href="index.html?search=Huawei">Huawei</a>
+                            <a href="index.html?search=Oppo">Oppo</a>
+                            <a href="index.html?search=Mobi">Mobi</a></div>
+                    </div>
+                    <!-- End Search header -->
+
+                    <div class="tools-member">
+                        <div class="member">
+                            <a onclick="checkTaiKhoan()">
+                                <i class="fa fa-user"></i> Tài khoản
+                            </a>
+                            <div class="menuMember hide">
+                                <a href="nguoidung.html">Trang người dùng</a>
+                                <a onclick="if(window.confirm('Xác nhận đăng xuất ?')) logOut();">Đăng xuất</a>
+                            </div>
+
+                        </div>
+                        <!-- End Member -->
+
+                        <div class="cart">
+                            <a href="giohang.html">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Giỏ hàng</span>
+                                <span class="cart-number"></span>
+                            </a>
+                        </div>
+                        <!-- End Cart -->
+
+                        <!--<div class="check-order">
+                        <a>
+                            <i class="fa fa-truck"></i>
+                            <span>Đơn hàng</span>
+                        </a>
+                    </div> -->
+                    </div>
+                    <!-- End Tools Member -->
+                </div>
+                <!-- End Content -->
+            </div>
+        </div>
+    </section>
+    <div class="clearfix">
+    </div>
+
+    <!-- <div class="page-index">
+        <div class="container">
+            <p>
+                Home - Contact us
+            </p>
+        </div>
+    </div> -->
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="container_fullwidth">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="title contact-title">
+                        Contact Us
+                    </h5>
+                    <div class="clearfix">
+                    </div>
+                    <div class="map">
+                        <iframe width="600" height="350" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Vietnam&amp;aq=&amp;sll=14.058324,108.277199&amp;sspn=21.827722,43.286133&amp;ie=UTF8&amp;hq=&amp;hnear=Vietnam&amp;ll=14.058324,108.277199&amp;spn=8.883583,21.643066&amp;t=m&amp;z=6&amp;output=embed">
+            </iframe>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="contact-infoormation">
+                                <h5>
+                                    Contact Info
+                                </h5>
+                                <p>
+                                    Công Ty TNHH Thương Mại - Công nghệ Bạch Long là một trong số những nhà bán lẻ Smartphone, Máy tính bảng, Phụ kiện công nghệ hàng đầu Việt Nam. Công ty được thành lập từ năm 2006 và tiền thân là cửa hàng bán lẻ điện thoại mang tên Bạch Long Mobile tại
+                                    địa chỉ 136 Trần Phú, Phường 04, Quận 05, Tp.HCM.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span class="icon">
+                      <img src="image/contact/message.png" alt="">
+                    </span>
+                                        <p>
+                                            contact@khanh.me
+                                            <br> support@khanh.me
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span class="icon">
+                      <img src="image/contact/phone.png" alt="">
+                    </span>
+                                        <p>
+                                            084. 93 668 2236
+                                            <br> 084. 93 668 6789
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span class="icon">
+                      <img src="image/contact/address.png" alt="">
+                    </span>
+                                        <p>
+                                            No.86 ChuaBoc St, DongDa Dt,
+                                            <br> Hanoi, Vietnam
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="ContactForm">
+                                <h5>
+                                    Contact Form
+                                </h5>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>
+                        Your Name 
+                        <strong class="red">
+                          *
+                        </strong>
+                      </label>
+                                            <input class="inputfild" type="text" name="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>
+                        Your Email
+                        <strong class="red">
+                          *
+                        </strong>
+                      </label>
+                                            <input class="inputfild" type="email" name="">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label>
+                        Your Message 
+                        <strong class="red">
+                          *
+                        </strong>
+                      </label>
+                                            <textarea class="inputfild" rows="8" name="">
+                      </textarea>
+                                        </div>
+                                    </div>
+                                    <button class="pull-right">
+                    Send Message
+                  </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <!-- ============== Alert Box ============= -->
+                <div id="alert" style="opacity: 0; z-index: 0;">
+                    <span id="closebtn">⊗</span>
+                </div>
+
+                <!-- ============== Footer ============= -->
+                <div class="copy-right">
+                    <p><a href="index.html">ShopMobile Store</a> - All rights reserved © 2018 - Designed by
+                        <span style="color: #eee; font-weight: bold">K-group</span></p>
+                </div>
+
+            </div>
+
+
+            <!-- 
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script src="js/Jquery/Jquery.min.js"></script>
+            <script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+            <script src="js/OwlCarousel2-2.3.4/dist/scrolls.js"></script>
+            <script src="js/scroll.js"></script> -->
+</body>
+
+</html>
